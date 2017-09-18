@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>Altex</title>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/>
+<link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+        
+	</head>
+    
+    
+	<body>
+		<div id="containerrs">
+			<div id="main">
+				<div id="header">
+				<img src = "Header-merged.png" width="480" alt="My image" />
+				</div>
+	
+                <h1>Safe Environment for Aversion Therapy</h1>
+                <p>Welcome to the Alt-Ex control panel. From here you can control your patient's virtual experience to provide the ideal level of therapeutic treatment.</p>
+                
+                <h2>Environmental Options:</h2>
+                
+                <div class="container">
+                <div class="slider">
+                <label for="container">Sound</label>-
+                <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>+
+                </div>
+                </div>
+
+            <div class="container2">
+             <div class="slider2">
+            <label for="container2">Brightness</label>-
+              <input type = "range" min="0" max="100" onchange="rangevalue2.value=value"/>+
+                </div>
+              </div>
+            
+            <select name="environments" id="environments">
+                <optgroup label="Indoor">
+                  <option value="Office">Office</option>
+                  <option value="Home">Home</option>
+                  <option value="School">School</option>
+                </optgroup>
+                <optgroup label="Outdoor">
+                  <option value="Forest">Forest</option>
+                  <option value="Desert">Desert</option>
+                  <option value="Backyard">Backyard</option>
+                  <option value="City">City</option>
+                </optgroup>
+            </select>
+        
+                <div id="optionPanel">
+                 <h3>Spider Options</h3>
+                    <form action="#"> <!-- Enter how to send data from form below -->
+                        
+                        
+                       <select name="intensity" id="intensity">
+                <label for="intensity">Intensity Level</label>
+                  <option value="minimal">Minimal</option>
+                  <option value="moderate">Moderate</option>
+                  <option value="average">Average</option>
+                  <option value="exterme">Extreme</option>
+                        </select>
+
+                    <fieldset>
+                        <div id="left2">
+                        <label for="species">Species</label>
+                        <select name="species" id="species">
+                            <option disabled selected="selected">-Select-</option>
+                            <option value="tarantula">Tarantula</option>
+                            <option value="blackWidow">Black Widow</option>
+                            <option value="brownRecluse">Brown Recluse</option>
+                            <option value="daddyLongLegs">Daddy Long Legs</option>
+                            <option value="bananaSpider">Banana Spider</option>
+                        </select>
+
+                        <label for="speed">Size</label>
+                        <select name="speed" id="speed">
+                          <option disabled selected>-Select-</option>
+                          <option value="tiny">Tiny</option>
+                          <option value="small">Small</option>
+                          <option value="medium">Medium</option>
+                          <option value="large">Large</option>
+                          <option value="giant">Giant</option>
+                        </select>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div is="right2">                        <label for="color">Color</label>
+                        <select name="color" id="color">
+                          <option disabled selected>-Select-</option>
+                          <option value="black">Black</option>
+                          <option value="red">Red</option>
+                          <option value="yellow">Yellow</option>
+                          <option value="brown">Brown</option>
+                        </select>
+
+                        <label for="speed">Speed</label>
+                        <select name="speed" id="speed">
+                          <option disabled selected>-Select-</option>
+                          <option value="slower">Slower</option>
+                          <option value="slow">Slow</option>
+                          <option value="medium">Medium</option>
+                          <option value="fast">Fast</option>
+                          <option value="faster">Faster</option>
+                        </select>
+                        </div>
+                    </fieldset>
+                    </form>   
+                    </div>
+                
+                        <fieldset>
+                              <div id="buttons">
+                            <input type="submit" value="Submit This Now!"> 
+                            <input type="reset"> 
+                              </div>
+                        </fieldset>
+            </div>
+        </div>
+    </body>
+</html>
